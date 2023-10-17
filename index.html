@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Sitio Web</title>
+    <!-- Agrega los enlaces a los archivos CSS de Bootstrap y JavaScript (jQuery y Popper.js) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        /* Estilos para el texto estático en la esquina derecha inferior del carrusel */
+        .carousel-caption-static {
+            position: absolute;
+            bottom: 150px;
+            right: 150px;
+            width: 400px;
+            color: #fff;
+            padding: 10px;
+        }
+        
+
+
+        /* Estilos para el botón 2 */
+        .btn-white-custom {
+            background-color: transparent;
+            color: #fff;
+            border: 1px solid #fff;
+        }
+    </style>
+</head>
+
+<body>
+     <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        
+        <a class="navbar-brand mr-auto ml-4" href="#">
+            <img src="./img/codoacodo.png" width="50" height="30" class="d-inline-block align-top" alt=""> Conf Bs As
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">La conferencia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Los Oradores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">El lugar y la fecha</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Conviértete en orador</a>
+                </li>
+                <li class="nav-item mr-4">
+                    <a class="nav-link text-success" href="#">Comprar tickets</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Carrusel de imágenes -->
+    <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="false" >
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/ba1.jpg" class="d-block w-100" style="height: 750px;" alt="Imagen 1">
+                <div class="carousel-caption-static mb-4 text-right">
+                    <h3>Conf Bs AS</h3>
+                    <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el
+                        conocimiento y experiencia de los expertos están creando el futuro de Internet. Ven a conocer a
+                        miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que
+                        tenenmos para ti. Te esperamos!</p>
+                    <a href="#" class="btn btn-white btn-white-custom">Quiero ser orador</a>
+                    <a href="#" class="btn btn-success btn-success-custom">Comprar tickets</a>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="./img/ba2.jpg" class="d-block w-100" style="height: 750px;" alt="Imagen 2">
+                <div class="carousel-caption-static text-right">
+                    <h3>Conf Bs AS</h3>
+                    <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el
+                        conocimiento y experiencia de los expertos están creando el futuro de Internet. Ven a conocer a
+                        miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que
+                        tenenmos para ti. Te esperamos!</p>
+                    <a href="#" class="btn btn-white btn-white-custom">Quiero ser orador</a>
+                    <a href="#" class="btn btn-success btn-success-custom">Comprar tickets</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/ba3.jpg" class="d-block w-100" style="height: 750px;" alt="Imagen 3">
+                <div class="carousel-caption-static text-right">
+                    <h3>Conf Bs AS</h3>
+                    <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el
+                        conocimiento y experiencia de los expertos están creando el futuro de Internet. Ven a conocer a
+                        miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que
+                        tenenmos para ti. Te esperamos!</p>
+                    <a href="#" class="btn btn-white btn-white-custom">Quiero ser orador</a>
+                    <a href="#" class="btn btn-success btn-success-custom">Comprar tickets</a>
+                </div>
+            </div>
+            <!-- Agrega más elementos de carrusel aquí -->
+        </div>
+        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+
+    <div class="container">
+        <div class="row  m-2 justify-content-center">
+            <div class="text-center">
+                <h6>CONOCE A LOS</h6>
+                <h3><strong>ORADORES</strong></h3>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row text-center">
+
+            <div class="col-md-4 text-left">
+                <div class="card mb-4" style="width: 18rem;">
+                    <img src="./img/steve.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <span class="bg-warning rounded p-1"><strong>JavaScript</strong></span>
+                        <span class="bg-info text-light rounded p-1"><strong>React</strong></span>
+                        <h5 class="card-title">Steve Jobs</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus ipsam alias cumque porro, repellat modi in voluptatum consequuntur, fuga iste animi veritatis nam quidem eligendi. Fuga aliquid in nulla quo? </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-left">
+                <div class="card mb-4" style="width: 18rem;">
+                    <img src="./img/bill.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <span class="bg-warning rounded p-1"><strong>JavaScript</strong></span>
+                        <span class="bg-info text-light rounded p-1"><strong>React</strong></span>
+                        <h5 class="card-title">Bill Gates</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio incidunt autem commodi doloremque error aliquid voluptatum quas eligendi animi corrupti provident assumenda magnam, debitis, </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-left">
+                <div class="card mb-4" style="width: 18rem;">
+                    <img src="./img/ada.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body text-start">
+                        <span class="bg-secondary text-light rounded p-1"><strong>Negocios</strong></span>
+                        <span class="bg-danger text-light rounded p-1"><strong>Startups</strong></span>
+                        <h5 class="card-title">Ada Lovelace</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nulla incidunt reprehenderit quod dolore? Vero quia porro non magnam corrupti fugit id illo. Officiis nemo ipsum similique quod veritatis vitae..</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 p-0" >
+                <img src="./img/honolulu.jpg" style="width:100%;" alt="...">
+            </div>
+            <div class="col-6 bg-dark text-light">
+                <div class="card-body">
+                    <h5 class="card-title">Bs As - Octubre </h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, veritatis. Corrupti veniam facilis placeat, quo cupiditate quos optio. Facere aperiam repellat aut eius blanditiis adipisci exercitationem quidem velit obcaecati odit?This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                        <a href="#" class="btn btn-white btn-white-custom">Conocer mas</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10 m-3 text-center">
+                <h6>CONVIÉRTETE EN UN</h6>
+                <h4><strong>ORADOR</strong> </h4>
+                <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p> 
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            
+                            <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                        </div>
+                    </div>
+                    <div class="form-group text-left">
+                        <textarea class="form-control" id="mensaje" rows="4" placeholder="Sobre que quieres hablar?"></textarea>
+                        <span class="small"><em>Recuerda incluir un titulo para tu charla</em></span>
+                    </div>
+                    
+                        <button class="btn btn-success btn-lg" style="width: 100%;">Enviar</button>
+                    
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <footer class="bg-dark text-white py-3">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-md-1">
+                    <p>Preguntas frecuentes</p>
+                </div>
+                <div class="col-md-2">
+                    <p>Contáctanos</p>
+                </div>
+                <div class="col-md-1">
+                    <p>Prensa</p>
+                </div>
+                <div class="col-md-1">
+                    <p>Conferencia</p>
+                </div>
+                <div class="col-md-2">
+                    <p>Términos y condiciones</p>
+                </div>
+                <div class="col-md-1">
+                    <p>Privacidad</p>
+                </div>
+                <div class="col-md-1">
+                    <p>Estudiantes</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
